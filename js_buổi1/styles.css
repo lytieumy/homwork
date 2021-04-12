@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    border: 3px solid green;
+}
+
+.item{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: 1px solid pink;
+}
+.top-left{
+    top: 0;
+    left: 0;
+}
+.top-right{
+    top:0;
+    right: 0;
+}
+.bottom-left{
+    bottom:0;
+    left:0;
+}
+.bottom-right{
+    bottom:0;
+    right:0;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
