@@ -89,13 +89,10 @@ function isTriplet(a,b,c){
     let min=(temp_min+c-Math.abs(temp_min-c))/2
     middle = a+b+c-(max+min)
     
-    if(Math.pow(min,2)+Math.pow(middle,2)==Math.pow(max,2)){
-        console.log(true)
-    }
-    else{
-        console.log(false)
-    }
+    let ans=Math.pow(min,2)+Math.pow(middle,2)==Math.pow(max,2)
+    console.log(ans)
 }
-isTriplet(3, 4, 5)
-isTriplet(13, 5, 12)   
-isTriplet(1, 2, 3)
+ans = isTriplet(3, 4, 5)
+// isTriplet(3, 4, 5)
+// isTriplet(13, 5, 12)   
+// isTriplet(1, 2, 3)
